@@ -25,7 +25,7 @@ library cstruct
  
   sub syntax
     path:         syntax
-    builddepends: camlp4.lib, camlp4.quotations.r, camlp4.extend, cstruct
+    builddepends: camlp4.lib, camlp4.quotations.r, camlp4.extend
     modules:      pa_cstruct
     syntax:       true
     pp:           camlp4o
